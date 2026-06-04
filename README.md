@@ -104,14 +104,3 @@ The system prompt (`prompts.py`) defines:
 Three **few-shot examples** prime the model before the first user turn so response quality is consistent from message #1.
 
 ---
-
-## Cloud Deployment (Streamlit Community Cloud)
-
-1. Push your project to a GitHub repository
-2. Go to https://share.streamlit.io → **New app**
-3. Select your repo and set `app.py` as the entry point
-4. Add `GEMINI_API_KEY` under **Advanced settings → Secrets**:
-   ```
-   GEMINI_API_KEY = "AIza..."
-   ```
-5. Click **Deploy**
